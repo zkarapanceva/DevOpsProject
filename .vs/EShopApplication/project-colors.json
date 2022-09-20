@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "fca6565a-ccb6-45d6-8774-921851d74766": {
+      "ProjectGuid": "fca6565a-ccb6-45d6-8774-921851d74766",
+      "DisplayName": "EShop.Web",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
