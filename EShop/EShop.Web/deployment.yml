@@ -1,22 +1,26 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: eshop
+  name: {{ .Release.Name }} #eshop
+  labels:
+    app: "{{ template "name" . }}" #eshop
 spec:
   replicas: 2
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+        maxUnavailable: 1
   selector:
     matchLabels:
-        app: eshop
-  
+        app: "{{ template "name" . }}" #eshop
   template:
     metadata:
       labels:
-        app: eshop
+        app: "{{ template "name" . }}" #eshop
     spec:
-
       containers:
-        - image: "eshop"
+        - image: "{{ .Values.image.name }}:{{ .Values.image.tag }}" #eshop
           imagePullPolicy: Always
-          name: eshop
+          name: "{{ template "name" . }}" #eshop
           ports:
-            - containerPort: 5000
+            - containerPort: 80
