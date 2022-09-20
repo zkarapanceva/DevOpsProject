@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: eshop
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+        app: eshop
+  
+  template:
+    metadata:
+      labels:
+        app: eshop
+    spec:
+
+      containers:
+        - image: "eshop"
+          imagePullPolicy: Always
+          name: eshop
+          ports:
+            - containerPort: 5000
