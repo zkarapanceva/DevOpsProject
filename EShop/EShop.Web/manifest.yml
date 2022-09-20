@@ -1,0 +1,22 @@
+serverConfigs:
+  command: ["eshop"]
+  args:
+    - -u
+    - eshop
+    - -m
+    - "896"
+  resources:
+    limits:
+      cpu: 500m
+      memory: 1024Mi
+    requests:
+      memory: 1024Mi
+      cpu: 500m
+  service:
+    spec:
+      type: ClusterIP
+      ports:
+      - name: eshop
+        port: 5000
+        protocol: TCP
+        targetPort: 80
