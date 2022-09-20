@@ -1,9 +1,9 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: {{ .Release.Name }} #eshop
+  name: eshop
   labels:
-    app: "{{ template "name" . }}" #eshop
+    app: eshop
 spec:
   replicas: 2
   strategy:
@@ -12,15 +12,15 @@ spec:
         maxUnavailable: 1
   selector:
     matchLabels:
-        app: "{{ template "name" . }}" #eshop
+        app: eshop
   template:
     metadata:
       labels:
-        app: "{{ template "name" . }}" #eshop
+        app: eshop
     spec:
       containers:
-        - image: "{{ .Values.image.name }}:{{ .Values.image.tag }}" #eshop
+        - image: eshop
           imagePullPolicy: Always
-          name: "{{ template "name" . }}" #eshop
+          name: eshop
           ports:
             - containerPort: 80
