@@ -33,4 +33,4 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           push: true
-          tags: zkarapanceva/DevOpsProject:latest
+          tags: 185003/eshop:v1
