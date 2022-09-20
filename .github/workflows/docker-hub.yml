@@ -32,5 +32,6 @@ jobs:
         name: Build and push
         uses: docker/build-push-action@v3
         with:
+          context: ./EShop/EShop.Web/
           push: true
           tags: 185003/eshop:v1
