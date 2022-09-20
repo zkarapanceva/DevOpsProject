@@ -1,5 +1,9 @@
 FROM mcr.microsoft.com/dotnet/sdk:6.0
 WORKDIR /App
-COPY . .
+COPY bin/Release/net6.0/publish/ .
 EXPOSE 5000
-ENTRYPOINT ["dotnet", "bin/Release/net6.0/publish/EShop.Web.dll"]
+ENTRYPOINT ["dotnet", "EShop.Web.dll"]
+
+
+
+

@@ -594,3 +594,12 @@ C:\Users\zoric\Desktop\DevOps\DevOpsProject\EShop\EShop.Web\obj\Debug\net6.0\ESh
 C:\Users\zoric\Desktop\DevOps\DevOpsProject\EShop\EShop.Web\obj\Debug\net6.0\ref\EShop.Web.dll
 C:\Users\zoric\Desktop\DevOps\DevOpsProject\EShop\EShop.Web\obj\Debug\net6.0\EShop.Web.pdb
 C:\Users\zoric\Desktop\DevOps\DevOpsProject\EShop\EShop.Web\obj\Debug\net6.0\EShop.Web.genruntimeconfig.cache
+C:\Users\zoric\Desktop\DevOps\DevOpsProject\EShop\EShop.Web\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\zoric\Desktop\DevOps\DevOpsProject\EShop\EShop.Web\bin\Debug\net6.0\Fractions.dll
+C:\Users\zoric\Desktop\DevOps\DevOpsProject\EShop\EShop.Web\bin\Debug\net6.0\IdentityModel.dll
+C:\Users\zoric\Desktop\DevOps\DevOpsProject\EShop\EShop.Web\bin\Debug\net6.0\IdentityModel.OidcClient.dll
+C:\Users\zoric\Desktop\DevOps\DevOpsProject\EShop\EShop.Web\bin\Debug\net6.0\KubernetesClient.dll
+C:\Users\zoric\Desktop\DevOps\DevOpsProject\EShop\EShop.Web\bin\Debug\net6.0\Microsoft.Rest.ClientRuntime.dll
+C:\Users\zoric\Desktop\DevOps\DevOpsProject\EShop\EShop.Web\bin\Debug\net6.0\BouncyCastle.Crypto.dll
+C:\Users\zoric\Desktop\DevOps\DevOpsProject\EShop\EShop.Web\bin\Debug\net6.0\System.IO.Abstractions.dll
+C:\Users\zoric\Desktop\DevOps\DevOpsProject\EShop\EShop.Web\bin\Debug\net6.0\YamlDotNet.dll
